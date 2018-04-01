@@ -2,11 +2,12 @@
 
   <h3>{{ student.name | uppercase }}</h3>
   <div><span>id: </span>{{student.id}}</div>
-  <div><span>Name: </span>{{student.name}}</div> 
+  <div><span>name: </span>{{student.name}}</div> 
   <div><span>Grade: </span>{{student.grade}}</div> 
   <div><span>Subjects: </span></div> 
   <div *ngFor="let subject of student.subjects" >
       {{subject}}
             
           </div>
+
 </div>
